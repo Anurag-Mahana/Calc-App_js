@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgba(13, 68, 100, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cacl-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 40vw;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 25%
+}
+.span-two{
+    width: 50%
+}
+
+.top-box{
+background: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-box{
+display: flex;
+flex-direction: column ;
+flex-wrap: wrap;
+}
+.col1 .col2 .col3{
+    display: flex;
+    flex-wrap: wrap;
+}
